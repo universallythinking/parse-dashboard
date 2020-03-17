@@ -3,9 +3,9 @@ const { ParseServer } = require('parse-server');
 
 const api = new ParseServer({
   databaseURI: 'mongodb://localhost:27017/dashboard',
-  appId: 'hello',
-  masterKey: 'world',
-  serverURL: 'http://localhost:1338/parse',
+  appId: 'univthink',
+  masterKey: 'Thomas10171990',
+  serverURL: 'http://chatterparse.herokuapp.com:1338/parse',
 });
 
 const app = express();
